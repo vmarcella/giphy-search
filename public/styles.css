@@ -1,0 +1,66 @@
+* {
+	font-family: 'Lato', Helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+body {
+	background-color:#e6f2ff !important;
+	padding-bottom: 40px;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+}
+
+input {
+	padding: .5em .6em;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 3px #ddd;
+	border-radius: 4px;
+	vertical-align: middle;
+	box-sizing: border-box;
+	width: 300px;
+}
+
+form {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#search_button {
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	font-size: 1rem;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	margin: 20px 0;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	outline: none;
+	border: 1px solid #000;
+}
+
+.container {
+	background-color: #99ccff;
+	text-align: center;
+}
+
+.card {
+	width: 22rem;
+}
+
+.card-img-top {
+	height: 200px;
+}
+
+.card-body {
+	font-size: 13px;
+	padding top: 10px;
+}
+
+.card-body .button {
+	width: 50px !important;
+	background-color: black !important;

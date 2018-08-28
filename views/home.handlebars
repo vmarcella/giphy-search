@@ -1,0 +1,18 @@
+<h1>Search for GIFS</h1>
+
+<form action="/">
+	<input type="text" name="term">
+	<button type="submit" class="btn btn-primary" id="search_button">Search</button>
+</form>
+
+{{#each gifs}}
+	<div class="d-inline-block card">
+		<img class="card-img-top" src="{{this.images.original.url}}" alt="gif">
+		<div class="card-body">
+			<div class="card-title">{{this.title}}</div>
+			<a href="{{this.url}}" class="btn btn-primary">Original post</a>
+			<button onclick="copy(&quot;{{this.bitly_url}}&quot;)" class="btn btn-primary">Copy to clipboard</a>
+		</div>
+	</div>
+{{/each}}
+
